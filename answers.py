@@ -8,3 +8,11 @@ for i in range(1,1001):
         print("Buzz")
     else:
         print(i)
+
+# exercise 2
+num = int(input("please enter a number: "))
+for i in range(num-1):
+    print("*" * (i+1))
+for i in range(num):
+    print("*"*(num-i))
+
