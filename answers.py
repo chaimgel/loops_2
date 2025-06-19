@@ -33,3 +33,11 @@ else:
 num = int(input("please enter a number: "))
 for i in range(num):
     print(" "*(num-i),(str(i + 1)+" ") *i ,str(i+1),sep="")
+
+# exercise 5
+num = int(input("please enter a number: "))
+reversed_num=int(str(num)[::-1])
+if reversed_num==num:
+    print("it's pelindrom")
+else:
+    print("it's not pelindrom")
