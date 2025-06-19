@@ -28,3 +28,8 @@ if True in ans:
     print("is not a prime number")
 else:
     print("is prime number")
+
+# exercise 4
+num = int(input("please enter a number: "))
+for i in range(num):
+    print(" "*(num-i),(str(i + 1)+" ") *i ,str(i+1),sep="")
