@@ -1,2 +1,2 @@
 # loops_2
-Answers to Practice Loop 2
+Answers to Practice Loop 2.
